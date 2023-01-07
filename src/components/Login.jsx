@@ -17,7 +17,7 @@ export default function login() {
     height: "70vh",
     width: 280,
     padding: 20,
-    margin: "20px auto",
+    margin: "40px auto",
   };
   const avatarStyle = {
     backgroundColor: "green",
