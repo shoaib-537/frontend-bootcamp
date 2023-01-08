@@ -6,10 +6,9 @@ import {
   TextField,
   Button,
   Typography,
-  Link,
 } from "@mui/material";
 import LockPersonOutlinedIcon from "@mui/icons-material/LockPersonOutlined";
-
+import { Link } from "react-router-dom";
 const SignUp = () => {
   const paperStyle = {
     width: 280,
@@ -92,7 +91,7 @@ const SignUp = () => {
             SignUp
           </Button>
           <Typography style={commonStyle}>
-            Already have an account?<Link href="#">Login</Link>
+            Already have an account?<Link to="/">Login</Link>
           </Typography>
         </Paper>
       </Grid>

@@ -8,8 +8,9 @@ import {
   Checkbox,
   Button,
   Typography,
-  Link,
+  
 } from "@mui/material";
+import {Link} from 'react-router-dom'
 import LockPersonOutlinedIcon from "@mui/icons-material/LockPersonOutlined";
 
 export default function login() {
@@ -63,7 +64,7 @@ export default function login() {
             <Link href="#">Forget Password</Link>
           </Typography>
           <Typography style={commonStyle}>
-            Don't have account?<Link href="#">Create Account</Link>
+            Don't have account?<Link to='/signup'>Create Account</Link>
           </Typography>
         </Paper>
       </Grid>
